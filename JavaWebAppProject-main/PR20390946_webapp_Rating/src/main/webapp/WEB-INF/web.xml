@@ -1,0 +1,45 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>studentServlet</servlet-name>
+  	<servlet-class>pr20390946.webapp.rating.PR20390946_webapp_Rating.studentServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>updatingServlet</servlet-name>
+  	<display-name>updatingServlet</display-name>
+  	<description></description>
+  	<servlet-class>pr20390946.webapp.rating.PR20390946_webapp_Rating.updatingServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DisplayForEachSubjectServlet</servlet-name>
+  	<display-name>DisplayForEachSubjectServlet</display-name>
+  	<description></description>
+  	<servlet-class>pr20390946.webapp.rating.PR20390946_webapp_Rating.DisplayForEachSubjectServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DisplayForAllStudentsServlet</servlet-name>
+  	<display-name>DisplayForAllStudentsServlet</display-name>
+  	<description></description>
+  	<servlet-class>pr20390946.webapp.rating.PR20390946_webapp_Rating.DisplayForAllStudentsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>studentServlet</servlet-name>
+  	<url-pattern>/studentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>updatingServlet</servlet-name>
+  	<url-pattern>/updatingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DisplayForEachSubjectServlet</servlet-name>
+  	<url-pattern>/DisplayForEachSubjectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DisplayForAllStudentsServlet</servlet-name>
+  	<url-pattern>/DisplayForAllStudentsServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
